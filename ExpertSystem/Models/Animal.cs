@@ -15,26 +15,23 @@ namespace ExpertSystem.Models
         [Display(Name = "Вес")]
         public double Weight { get; set; }
 
-        [Display(Name = "Минимальный рост")]
-        public double MinimalGrowth { get; set; }
-
-        [Display(Name = "Максимальный рост")]
-        public double MaximalGrowth { get; set; }
+        [Display(Name = "Рост")]
+        public double Growth { get; set; }
 
         [Display(Name = "Особености тела")]
-        public double BodySingularites { get; set; }
+        public string BodySingularites { get; set; }
 
         [Display(Name = "Длина тела")]
         public double BodyLength { get; set; }
 
         [Display(Name = "Особености ног")]
-        public double FootsSingularites{ get; set; }
+        public string FootsSingularites { get; set; }
 
         [Display(Name = "Размер рог")]
         public double HornsSize{ get; set; }
 
         [Display(Name = "Особености рог")]
-        public double HornsSingularites { get; set; }
+        public string HornsSingularites { get; set; }
 
         [Display(Name = "Особености меха")]
         public string FurSingularites { get; set; }
@@ -53,9 +50,6 @@ namespace ExpertSystem.Models
 
         [Display(Name = "Особености глаз")]
         public string EyesSingularites { get; set; }
-
-        [Display(Name = "Количество глаз")]
-        public double EyesCount { get; set; }
 
         [Display(Name = "Продолжительность жизни")]
         public double LifeExpectancy { get; set; }

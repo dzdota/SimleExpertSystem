@@ -13,7 +13,7 @@ namespace ExpertSystem.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201802230857121_migration"; }
+            get { return "201803270741319_migration"; }
         }
         
         string IMigrationMetadata.Source
